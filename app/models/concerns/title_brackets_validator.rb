@@ -1,7 +1,6 @@
 require 'set'
 
 class TitleBracketsValidator < ActiveModel::Validator
-	 include ActiveModel::Validations
 	   def validate(subject)
 	   	t = subject.title
 
