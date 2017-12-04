@@ -11,6 +11,8 @@ gem "jquery-rails"
 gem "sass-rails"
 gem "sqlite3"
 gem "uglifier"
+gem 'devise'
+
 
 group :development do
   gem "better_errors"
