@@ -3,3 +3,5 @@
   = @movie.description
 - if user_signed_in?
   %p= link_to 'Email me details about this movie', send_info_movie_path(@movie), class: 'btn btn-sm btn-default'
+  %textarea{:cols => "50", :placeholder => "comment", :rows => "4"}
+  %p= link_to 'Send', send_info_movie_path(@movie), class: 'btn btn-sm btn-primary'
